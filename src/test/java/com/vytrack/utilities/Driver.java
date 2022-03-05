@@ -60,5 +60,12 @@ public class Driver {
 // try to create a method name closeDriver
 
 
+    public static void closeDriver(){
+        if(driver!=null){
+            driver.quit();
+            driver=null;
+
+        }
+    }
 
 }
